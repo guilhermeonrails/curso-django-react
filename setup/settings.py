@@ -119,7 +119,6 @@ USE_TZ = True
 
 CORS_ALLOWED_ORIGINS = [
     "http://localhost:3000",
-    'https://alura-pizza.vercel.app',
 ]
 
 
@@ -139,11 +138,3 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 if 'DATABASE_URL' in os.environ:
     import dj_database_url
     DATABASES = {'default': dj_database_url.config()}
-
-
-DEFAULT_FILE_STORAGE = 'storages.backends.s3boto3.S3Boto3Storage'
-
-AWS_ACCESS_KEY_ID = 'AKIA6AKEBCOETR6CQR4A'
-AWS_SECRET_ACCESS_KEY = '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'
-AWS_STORAGE_BUCKET_NAME = 'alura-menu-pizza'
-AWS_S3_FILE_OVERWRITE = False
