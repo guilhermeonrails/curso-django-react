@@ -26,7 +26,7 @@ SECRET_KEY = 'django-insecure-oashxs!84x15sk=y$$g=ut!mt*1o!@0+y-nb0+$j!352y+6hlb
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['localhost', 'alura-pizza.herokuapp.com', 'alura-pizza.vercel.app']
+ALLOWED_HOSTS = ['localhost', 'alura-pizza.herokuapp.com']
 
 # Application definition
 
@@ -119,6 +119,7 @@ USE_TZ = True
 
 CORS_ALLOWED_ORIGINS = [
     "http://localhost:3000",
+    'https://alura-pizza.vercel.app',
 ]
 
 
