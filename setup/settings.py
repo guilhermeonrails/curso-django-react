@@ -118,7 +118,8 @@ USE_L10N = True
 USE_TZ = True
 
 CORS_ALLOWED_ORIGINS = [
-    "http://localhost:3000",
+    'http://localhost:3000',
+    'https://alura-pizza.vercel.app',
 ]
 
 
