@@ -141,7 +141,7 @@ if 'DATABASE_URL' in os.environ:
     DATABASES = {'default': dj_database_url.config()}
 
 
-DEFAULT_FILE_STORAGE = 'storages.backends.s3boto3.S3Boto3Storage'
-AWS_ACCESS_KEY_ID = 'AKIA6AKEBCOEV3PLFJ7U'
-AWS_SECRET_ACCESS_KEY = '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'
-AWS_STORAGE_BUCKET_NAME = 'alura-pizza-imagens'
+# DEFAULT_FILE_STORAGE = 'storages.backends.s3boto3.S3Boto3Storage'
+# AWS_ACCESS_KEY_ID = ''
+# AWS_SECRET_ACCESS_KEY = ''
+# AWS_STORAGE_BUCKET_NAME = ''
