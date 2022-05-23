@@ -8,3 +8,5 @@ class Prato(models.Model):
 
     def __str__(self):
         return self.nome
+
+    # olha so
